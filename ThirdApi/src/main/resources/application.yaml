@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    second:
+      jdbc-url: jdbc:mysql://localhost:3306/temp
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      username: root
+      password: 1234
+    first:
+      jdbc-url: jdbc:oracle:thin:@10.168.2.173:1521:orcl
+      driver-class-name: oracle.jdbc.driver.OracleDriver
+      username: rails
+      password: passw0rd
